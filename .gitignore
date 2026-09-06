@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.local
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- Raw / intermediate data (keep processed outputs & figures tracked) ---
+data/raw/
+data/interim/
+data/external/
+*.zip
+
+# Note: data/processed/*.csv and figures/ are intentionally NOT ignored —
+# README.md and REPORT.md reference them directly, and the processed
+# feature/label CSVs are needed to reproduce the model without re-running
+# the full BIS CBS ingestion pipeline.
+
+# --- Large model artifacts (uncomment if models become too large for git) ---
+# models/*.joblib

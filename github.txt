@@ -1,0 +1,22 @@
+Deep learning for systemic financial risk: an Unsupervised Graph Autoencoder and a Spatio-Temporal GNN (GCN+LSTM) trained on 26 years of BIS banking network data (2000–2026) to autonomously detect crises and forecast cross-border exposure shifts — no manual features, no crisis labels.
+
+graph-neural-networks
+pytorch-geometric
+systemic-risk
+graph-autoencoder
+temporal-gnn
+spatio-temporal
+gcn
+lstm
+anomaly-detection
+deep-learning
+pytorch
+unsupervised-learning
+financial-networks
+network-science
+banking
+early-warning-system
+time-series-forecasting
+graph-representation-learning
+macroprudential-risk
+bis-data
